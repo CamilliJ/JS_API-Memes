@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.group{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-left: 90px;
+    margin-top: 90px;
+    display: none;
+}
+img{
+    width: 200px;
+}
+.item{
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.cabecalho{
+    background: rgb(59, 59, 59);
+    padding:20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40PX;
+    text-align: center;
+
+}
+.description{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20PX;
+}
+
+.title{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30PX;
+}
